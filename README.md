@@ -475,11 +475,11 @@ done
 
 |  #  | Challenge                                                      | Status | Para portafolio |
 |----|-----------------------------------------------------------------|--------|-----------------|
-|  1  | <a href = "https://github.com/xVrzBx/HelloWord">Hello World</a>|    ✅  |                 |
-|  2  | Business Card                    |    ✅  |                 |
-|  3  | Currency Calculator              |    ✅  |                 |
-|  4  | Binary and Decimal Converter     |    ✅  |                 |
-|  5  | Tips calculator                  |    ✅  |                 |
+|  1  | <a href = "https://github.com/xVrzBx/HelloWord">Hello World</a>|      |                 |
+|  2  | Business Card                    |      |                 |
+|  3  | Currency Calculator              |      |                 |
+|  4  | Binary and Decimal Converter     |      |                 |
+|  5  | Tips calculator                  |      |                 |
 |  6  | Calculator                       |        |                 |
 |  7  | Color visualizer                 |        |                 |
 |  8  | Password Generator               |        |                 |
