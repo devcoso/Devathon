@@ -1,0 +1,129 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.terminal {
+    max-width: 900px;
+    margin: 0 1rem;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.terminal_bar{
+    background-color: #1f1f1ff1;
+    height: 10px;   
+    padding: 10px;
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+ }
+ .icon{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    margin-right: 10px;¡
+ }
+
+.icon.green{
+    background-color: #49c583; /* Cambia el color de fondo según tus preferencias */
+
+}
+.icon.red{
+    background-color: #ba1e4a; /* Cambia el color de fondo según tus preferencias */
+
+}.icon.yellow{
+    background-color: #c39304; /* Cambia el color de fondo según tus preferencias */
+}
+
+.content {
+    padding: 1rem;
+}
+
+.content p {
+    color: #16a34a;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.content pre {
+    color: #16a34a;
+    font-size: 0.2rem;
+    width: auto;
+}
+
+@media (min-width: 480px) {
+    .content pre  {
+        font-size: 0.3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .content pre  {
+        font-size: 0.5rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .content pre  {
+        font-size: 0.8rem;
+    }
+}
+
+.content .comment {
+    color: #8c8c8c;;
+}
+
+.content .command-line {
+    color: #fff;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    overflow: hidden;
+}
+
+.command-line .blue {
+    color: #a5f3fc;
+}
+
+.command-line .yellow {
+    color: #fde68a;
+}
+
+.command-line .orange {
+    color: #f97316;
+}
+
+.command-line.js{
+    width: 23ch;
+    animation: typing 2s steps(23),
+    blink .5s step-end infinite alternate;
+}
+.command-line.c{
+    width: 19ch;
+    animation: typing 2s steps(19),
+    blink .5s step-end infinite alternate;
+}
+
+.command-line.php{
+    width: 17ch;
+    animation: typing 2s steps(17),
+    blink .5s step-end infinite alternate;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes blink{
+    50% { border-color: transparent;}
+}
