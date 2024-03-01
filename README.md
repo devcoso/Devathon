@@ -475,8 +475,8 @@ done
 
 |  #  | Challenge                                                      | Status | Para portafolio |
 |----|-----------------------------------------------------------------|--------|-----------------|
-|  1  | Hello World                      |    ✅     |            |
-|  2  | Business Card                    |      |                 |
+|  1  | Hello World                      |    ✅    |            |
+|  2  | Business Card                    |    ✅  |                 |
 |  3  | Currency Calculator              |      |                 |
 |  4  | Binary and Decimal Converter     |      |                 |
 |  5  | Tips calculator                  |      |                 |
